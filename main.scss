@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    background-color: darkorchid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gameArea{
+    width: 25vw;
+    height: 50vh;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    color: dimgrey;
+    padding: 40px;
+    box-shadow: 5px 5px 5px black;
+
+    .title{
+        span{
+            font-size: 26pt;
+        }
+    }
+
+    .number{
+        width: 15vw;
+        display: flex;
+        justify-content: space-around;
+        font-size: 34pt;
+        margin-left: 75px;
+    }
+
+    input{
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    button{
+        width: 150px;
+        height: 50px;
+        font-size: 15pt;
+        background-color: blueviolet;
+        color: aliceblue;
+        border-radius: 5px;
+        border-style: none;
+        margin-top: 50px;
+        box-shadow: 2px 2px 2px black;
+
+        &:hover{
+            background-color: dimgray;
+            color: aliceblue;
+        }
+        &:active{
+            background-color: blueviolet;
+            color: aliceblue;
+        }
+    }
+
+}
