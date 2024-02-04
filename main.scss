@@ -1,20 +1,20 @@
 body{
     margin: 0;
-    background-color: darkorchid;
+    background-color: lavender;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .gameArea{
     width: 25vw;
     height: 50vh;
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 10px;
     margin: auto;
     margin-top: 100px;
     text-align: center;
     color: dimgrey;
     padding: 40px;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 1px 1px 1px black;
 
     .title{
         span{
@@ -41,19 +41,19 @@ body{
         width: 150px;
         height: 50px;
         font-size: 15pt;
-        background-color: blueviolet;
-        color: aliceblue;
+        background-color: lavender;
+        color: dimgrey;
         border-radius: 5px;
         border-style: none;
         margin-top: 50px;
-        box-shadow: 2px 2px 2px black;
+        box-shadow: 0.5px 0.5px 0.5px black;
 
         &:hover{
             background-color: dimgray;
             color: aliceblue;
         }
         &:active{
-            background-color: blueviolet;
+            background-color: lavender;
             color: aliceblue;
         }
     }
